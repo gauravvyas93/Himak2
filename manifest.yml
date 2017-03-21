@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Himak2
+  host: Himak2
+  disk_quota: 1024M
+  services:
+  - Himak2-cloudantNoSQLDB
